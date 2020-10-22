@@ -1,0 +1,27 @@
+{
+  "name": "javascript-react-firebase-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "ANALYZE=true next build",
+    "analyze:server": "BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "firebase": "^7.2.0",
+    "next": "^9.5.5",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "webpack": "^4.41.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.5",
+    "@types/webpack": "^4.39.3",
+    "typescript": "^3.6.4"
+  }
+}
